@@ -1,0 +1,167 @@
+<mxfile host="app.diagrams.net" modified="2023-11-13T15:56:19.332Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="faQoZXZjA-jbqFYslZCi" version="22.1.0" type="device">
+  <diagram name="Page-1" id="DypaosT-7iP0r8lW5B2J">
+    <mxGraphModel dx="1434" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iS8OEFIUps67hzQ1nXpI-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="30" width="680" height="820" as="geometry" />
+        </mxCell>
+        <mxCell id="iS8OEFIUps67hzQ1nXpI-2" value="&lt;div&gt;Enseignant&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="290" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iS8OEFIUps67hzQ1nXpI-3" value="&lt;div&gt;Effectuer une réservation&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iS8OEFIUps67hzQ1nXpI-4" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iS8OEFIUps67hzQ1nXpI-11" target="iS8OEFIUps67hzQ1nXpI-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="785" y="90" as="sourcePoint" />
+            <mxPoint x="900" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iS8OEFIUps67hzQ1nXpI-5" value="Vérifier la disponibilité" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iS8OEFIUps67hzQ1nXpI-6" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="iS8OEFIUps67hzQ1nXpI-3" target="iS8OEFIUps67hzQ1nXpI-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="210" y="140" as="sourcePoint" />
+            <mxPoint x="490" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iS8OEFIUps67hzQ1nXpI-8" value="&lt;div&gt;Étudiant&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="70" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iS8OEFIUps67hzQ1nXpI-11" value="&lt;div&gt;Enseignant&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="100" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iS8OEFIUps67hzQ1nXpI-12" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iS8OEFIUps67hzQ1nXpI-2" target="iS8OEFIUps67hzQ1nXpI-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="390" as="sourcePoint" />
+            <mxPoint x="440" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iS8OEFIUps67hzQ1nXpI-15" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iS8OEFIUps67hzQ1nXpI-8" target="iS8OEFIUps67hzQ1nXpI-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="390" as="sourcePoint" />
+            <mxPoint x="440" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iS8OEFIUps67hzQ1nXpI-16" value="Consulter le récapitulatif horaire" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="580" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iS8OEFIUps67hzQ1nXpI-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="iS8OEFIUps67hzQ1nXpI-13" target="iS8OEFIUps67hzQ1nXpI-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iS8OEFIUps67hzQ1nXpI-13" value="Consulter le planning des salles" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="390" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iS8OEFIUps67hzQ1nXpI-20" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="iS8OEFIUps67hzQ1nXpI-16" target="iS8OEFIUps67hzQ1nXpI-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="480" as="sourcePoint" />
+            <mxPoint x="440" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iS8OEFIUps67hzQ1nXpI-23" value="&lt;div&gt;Enseignant&lt;/div&gt;&lt;div&gt;Responsable&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="630" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iS8OEFIUps67hzQ1nXpI-24" value="Éditer le récapitulatif horaire" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="620" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iS8OEFIUps67hzQ1nXpI-31" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iS8OEFIUps67hzQ1nXpI-23" target="iS8OEFIUps67hzQ1nXpI-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="480" as="sourcePoint" />
+            <mxPoint x="440" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iS8OEFIUps67hzQ1nXpI-34" value="" style="endArrow=block;html=1;rounded=0;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="iS8OEFIUps67hzQ1nXpI-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="620" as="sourcePoint" />
+            <mxPoint x="40" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iS8OEFIUps67hzQ1nXpI-35" value="" style="endArrow=block;html=1;rounded=0;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="280" as="sourcePoint" />
+            <mxPoint x="40" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iS8OEFIUps67hzQ1nXpI-36" value="Réserver une salle" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="180" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iS8OEFIUps67hzQ1nXpI-37" value="Réserver un matériel" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="270" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iS8OEFIUps67hzQ1nXpI-38" value="Réserver un pc portable" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="270" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iS8OEFIUps67hzQ1nXpI-39" value="Réserver un vidéo projecteur" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="360" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iS8OEFIUps67hzQ1nXpI-42" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="iS8OEFIUps67hzQ1nXpI-37" target="iS8OEFIUps67hzQ1nXpI-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="480" as="sourcePoint" />
+            <mxPoint x="570" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iS8OEFIUps67hzQ1nXpI-43" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="iS8OEFIUps67hzQ1nXpI-37" target="iS8OEFIUps67hzQ1nXpI-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="480" as="sourcePoint" />
+            <mxPoint x="570" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iS8OEFIUps67hzQ1nXpI-44" value="Scénario Nominal" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="200" width="320" height="180" as="geometry">
+            <mxRectangle x="840" y="200" width="140" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iS8OEFIUps67hzQ1nXpI-45" value="Acteur principal : Enseignant" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="iS8OEFIUps67hzQ1nXpI-44">
+          <mxGeometry y="30" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iS8OEFIUps67hzQ1nXpI-46" value="Objectif : Réserver un matériel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="iS8OEFIUps67hzQ1nXpI-44">
+          <mxGeometry y="60" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iS8OEFIUps67hzQ1nXpI-47" value="Précondition : /" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="iS8OEFIUps67hzQ1nXpI-44">
+          <mxGeometry y="90" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iS8OEFIUps67hzQ1nXpI-48" value="Entrée : Disponibilité du matériel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="iS8OEFIUps67hzQ1nXpI-44">
+          <mxGeometry y="120" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iS8OEFIUps67hzQ1nXpI-49" value="Sortie :Afficher le récapitulatif de la réservation" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="iS8OEFIUps67hzQ1nXpI-44">
+          <mxGeometry y="150" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iS8OEFIUps67hzQ1nXpI-52" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="iS8OEFIUps67hzQ1nXpI-3" target="iS8OEFIUps67hzQ1nXpI-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="480" as="sourcePoint" />
+            <mxPoint x="570" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iS8OEFIUps67hzQ1nXpI-53" value="" style="endArrow=none;html=1;rounded=0;entryX=0.017;entryY=0.588;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="iS8OEFIUps67hzQ1nXpI-3" target="iS8OEFIUps67hzQ1nXpI-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="480" as="sourcePoint" />
+            <mxPoint x="570" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iS8OEFIUps67hzQ1nXpI-54" value="Scénario en Erreur" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="390" width="320" height="180" as="geometry">
+            <mxRectangle x="840" y="200" width="140" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iS8OEFIUps67hzQ1nXpI-55" value="Acteur principal : Enseignant" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="iS8OEFIUps67hzQ1nXpI-54">
+          <mxGeometry y="30" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iS8OEFIUps67hzQ1nXpI-56" value="Objectif : Réserver un matériel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="iS8OEFIUps67hzQ1nXpI-54">
+          <mxGeometry y="60" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iS8OEFIUps67hzQ1nXpI-57" value="Précondition : /" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="iS8OEFIUps67hzQ1nXpI-54">
+          <mxGeometry y="90" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iS8OEFIUps67hzQ1nXpI-58" value="Entrée : Pas de matériel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="iS8OEFIUps67hzQ1nXpI-54">
+          <mxGeometry y="120" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iS8OEFIUps67hzQ1nXpI-59" value="Sortie : Renvoyer une alerte d&#39;indisponibilité" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="iS8OEFIUps67hzQ1nXpI-54">
+          <mxGeometry y="150" width="320" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
