@@ -1,191 +1,239 @@
 <mxfile host="65bd71144e">
     <diagram id="Hnpg6M9tyzeRVUbkhzwp" name="Page-1">
-        <mxGraphModel dx="1072" dy="1868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1600" dy="2182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="Randonneur" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+                <mxCell id="2" value="Randonneur" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
                     <mxGeometry x="90" y="90" width="30" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="Préparer sa randonner" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="3" value="Préparer sa randonner" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="250" y="80" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="3">
+                <mxCell id="4" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="2" target="3" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="390" y="270" as="sourcePoint"/>
                         <mxPoint x="440" y="220" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="5" value="Lire les prévisions succincte avant le départ" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="5" value="Lire les prévisions succincte avant le départ" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="440" y="80" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="" style="endArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="5">
+                <mxCell id="6" value="" style="endArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3" target="5" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="390" y="260" as="sourcePoint"/>
                         <mxPoint x="440" y="210" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="7" value="Positionner les étapes de passage sur une carte" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="7" value="Positionner les étapes de passage sur une carte" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="440" y="200" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="" style="endArrow=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="7">
+                <mxCell id="8" value="" style="endArrow=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3" target="7" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="390" y="250" as="sourcePoint"/>
                         <mxPoint x="440" y="200" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="9" value="Randonneur" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+                <mxCell id="9" value="Randonneur" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
                     <mxGeometry x="660" y="300" width="30" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="Recevoir les notifications de dégradation de condition" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="10" value="Recevoir les notifications de dégradation de condition" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="260" y="290" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="Amateur Météo" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+                <mxCell id="17" value="Amateur Météo" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
                     <mxGeometry x="90" y="490" width="30" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" value="Faire des statistiques" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="21" value="Faire des statistiques" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="240" y="480" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="Récupérer les données exaustives des stations météo" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="22" value="Récupérer les données exaustives des stations météo" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="520" y="480" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="23" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="21" target="22">
+                <mxCell id="23" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="21" target="22" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="390" y="340" as="sourcePoint"/>
                         <mxPoint x="670.0000000000002" y="340" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="24" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="23">
+                <mxCell id="24" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="23" connectable="0" vertex="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" value="" style="endArrow=none;html=1;" edge="1" parent="1" source="17" target="21">
+                <mxCell id="25" value="" style="endArrow=none;html=1;" parent="1" source="17" target="21" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="370" y="370" as="sourcePoint"/>
                         <mxPoint x="420" y="320" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="27" value="Ajouter ses propres données météo" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="27" value="Ajouter ses propres données météo" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="520" y="640" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="28" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="27" target="22">
+                <mxCell id="28" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="27" target="22" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="340" y="460" as="sourcePoint"/>
                         <mxPoint x="580" y="570" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="29" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="28">
+                <mxCell id="29" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="28" connectable="0" vertex="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="31" value="Partager ses données météo sur une base de données participative" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="31" value="Partager ses données météo sur une base de données participative" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="235" y="610" width="150" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="34" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="17" target="31">
+                <mxCell id="34" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="17" target="31" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="130" y="530" as="sourcePoint"/>
                         <mxPoint x="250" y="530" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="35" value="" style="endArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="10" target="9">
+                <mxCell id="35" value="" style="endArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="10" target="9" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="460" y="350" as="sourcePoint"/>
                         <mxPoint x="510" y="300" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="36" value="Température 1°C près" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="36" value="Température 1°C près" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="670" y="-10" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="37" value="Pluviométrie" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="37" value="Pluviométrie" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="670" y="170" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="38" value="Vitesse Vent" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="38" value="Vitesse Vent" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="670" y="80" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="71" value="" style="endArrow=classic;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="36">
+                <mxCell id="71" value="" style="endArrow=classic;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5" target="36" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="480" y="60" as="sourcePoint"/>
                         <mxPoint x="640" y="60" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="72" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="71">
+                <mxCell id="72" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="71" connectable="0" vertex="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="73" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="38">
+                <mxCell id="73" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5" target="38" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="380" y="540" as="sourcePoint"/>
                         <mxPoint x="540" y="540" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="74" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="73">
+                <mxCell id="74" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="73" connectable="0" vertex="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="75" value="" style="endArrow=classic;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="37">
+                <mxCell id="75" value="" style="endArrow=classic;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5" target="37" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="390" y="550" as="sourcePoint"/>
                         <mxPoint x="550" y="550" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="76" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="75">
+                <mxCell id="76" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="75" connectable="0" vertex="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="77" value="Température 0.1°C près" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="77" value="Température 0.1°C près" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="690" y="390" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="78" value="Pluviométrie" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="78" value="Pluviométrie" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="690" y="570" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="79" value="Vent : Vitesse + direction + différentes altitudes" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="79" value="Vent : Vitesse + direction + différentes altitudes" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="770" y="480" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="80" value="Pression" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="80" value="Pression" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="840" y="570" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="81" value="Hygrométrie : sol + air" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="81" value="Hygrométrie : sol + air" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="830" y="390" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="82" value="" style="endArrow=classic;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;dashed=1;entryX=0.001;entryY=0.43;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="22" target="77">
+                <mxCell id="82" value="" style="endArrow=classic;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;dashed=1;entryX=0.001;entryY=0.43;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="22" target="77" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="552.4264068711971" y="158.2842712474644" as="sourcePoint"/>
                         <mxPoint x="680.0000000000002" y="220" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="83" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="82">
+                <mxCell id="83" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="82" connectable="0" vertex="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="84" value="" style="endArrow=classic;html=1;exitX=0.99;exitY=0.35;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="22" target="81">
+                <mxCell id="84" value="" style="endArrow=classic;html=1;exitX=0.99;exitY=0.35;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="22" target="81" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="562.4264068711971" y="168.2842712474644" as="sourcePoint"/>
                         <mxPoint x="690.0000000000002" y="230" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="85" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="84">
+                <mxCell id="85" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="84" connectable="0" vertex="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="86" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="22" target="79">
+                <mxCell id="86" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="22" target="79" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="648.8" y="518" as="sourcePoint"/>
                         <mxPoint x="857.573593128807" y="468.28427124746213" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="87" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="86">
+                <mxCell id="87" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="86" connectable="0" vertex="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="88" value="" style="endArrow=classic;html=1;exitX=0.976;exitY=0.671;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="22" target="80">
+                <mxCell id="88" value="" style="endArrow=classic;html=1;exitX=0.976;exitY=0.671;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="22" target="80" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="658.8" y="528" as="sourcePoint"/>
                         <mxPoint x="867.573593128807" y="478.28427124746213" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="89" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="88">
+                <mxCell id="89" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="88" connectable="0" vertex="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="90" value="" style="endArrow=classic;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="22" target="78">
+                <mxCell id="90" value="" style="endArrow=classic;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="22" target="78" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="668.8" y="538" as="sourcePoint"/>
                         <mxPoint x="877.573593128807" y="488.28427124746213" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="91" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="90">
+                <mxCell id="91" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="90" connectable="0" vertex="1">
                     <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Randonneur&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1090" width="470" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Objectif : Planifier sa randonnée&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="96">
+                    <mxGeometry y="30" width="470" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Entrée : Positionnement GPS des étapes&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="96">
+                    <mxGeometry y="60" width="470" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Sortie : Trajet de la randonnée avec les prévisions météo localisé&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="96">
+                    <mxGeometry y="90" width="470" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Scénario nominal&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1090" y="150" width="560" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Ajouter les points de passage pour définir le trajet de la randonnée&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="100">
+                    <mxGeometry y="30" width="560" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Ajouter les dates de passage pour chaque étape&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="100">
+                    <mxGeometry y="60" width="560" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Affichage de la cartographie du trajet avec les prévisions météo des étapes&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="100">
+                    <mxGeometry y="90" width="560" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Scénario alternatif&lt;br&gt;&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1094" y="300" width="560" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Ajouter les points de passage pour définir le trajet de la randonnée&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="105">
+                    <mxGeometry y="30" width="560" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Ajouter les dates de passage pour chaques étapes&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="105">
+                    <mxGeometry y="60" width="560" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Si pas de stations aux points de passage alors :&lt;br&gt;Affichage de la cartographie du trajet avec les prévisions global&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="105">
+                    <mxGeometry y="90" width="560" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Scénario en erreur&lt;br&gt;&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1094" y="480" width="560" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="110" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Ajouter les points de passage pour définir le trajet de la randonnée&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="109">
+                    <mxGeometry y="30" width="560" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Ajouter les dates de passage pour chaques étapes&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="109">
+                    <mxGeometry y="60" width="560" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Si serveur en panne : Récupération des données global chez Météo France&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="109">
+                    <mxGeometry y="90" width="560" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
